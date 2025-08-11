@@ -6,10 +6,10 @@ Repositório do projeto **“Vai de Retornável”** desenvolvido para a discipl
 Criar uma **landing page otimizada** para a promoção “Vai de Retornável” da Coca-Cola, reorganizando conteúdo e melhorando a experiência do usuário.
 
 ## 🛠 Tecnologias
-- ???  
-- ??? 
-- ???  
-- ???
+- HTML  
+- CSS 
+- JAVASCRIPT  
+- DOCKER
 
 ## 📂 Organização
 - **`main`** → versão estável do projeto  
