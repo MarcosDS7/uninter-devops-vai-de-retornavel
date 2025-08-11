@@ -1,19 +1,23 @@
 # 🥤 Vai de Retornável – DevOps UNINTER
 
-Repositório do projeto **“Vai de Retornável”** desenvolvido para a disciplina de **DevOps** da UNINTER.  
+Repositório do projeto **Vai de Retornável**, desenvolvido para a disciplina de **DevOps** na UNINTER.
 
 ## 📌 Objetivo
-Criar uma **landing page otimizada** para a promoção “Vai de Retornável” da Coca-Cola, reorganizando conteúdo e melhorando a experiência do usuário.
 
-## 🛠 Tecnologias
-- HTML  
-- CSS 
-- JAVASCRIPT  
-- DOCKER
+Desenvolver uma **landing page otimizada** para a campanha *Vai de Retornável* da Coca-Cola, com foco em reorganizar o conteúdo e melhorar a experiência do usuário.
 
-## 📂 Organização
-- **`main`** → versão estável do projeto  
-- Demais regras de branch e versionamento: [BRANCHING_VERSIONING.md](BRANCHING_VERSIONING.md)  
+## 🛠 Tecnologias utilizadas
 
-## 📄 Nota
-Projeto acadêmico sem fins comerciais. Todos os direitos da marca pertencem à Coca-Cola.
+* **HTML**
+* **CSS**
+* **JavaScript**
+* **Docker**
+
+## 📂 Estrutura do repositório
+
+* **`main`** → versão estável do projeto
+* Demais regras de branches e versionamento: [BRANCHING\_VERSIONING.md](BRANCHING_VERSIONING.md)
+
+## ℹ️ Observação
+
+Projeto acadêmico, sem fins comerciais. Todos os direitos da marca pertencem à **Coca-Cola**.
