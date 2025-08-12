@@ -18,6 +18,12 @@ Desenvolver uma **landing page otimizada** para a campanha *Vai de Retornável* 
 * **`main`** → versão estável do projeto
 * Demais regras de branches e versionamento: [BRANCHING\_VERSIONING.md](BRANCHING_VERSIONING.md)
 
+## 💻 Executando o Projeto
+Para executar o projeto em desenvolvimento no ambiente docker execute o seguinte comando e acessar no navegador o endereço **`http://localhost:8080/`**:
+```bash
+docker compose up --build
+``` 
+
 ## ℹ️ Observação
 
 Projeto acadêmico, sem fins comerciais. Todos os direitos da marca pertencem à **Coca-Cola**.
