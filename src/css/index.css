@@ -2,6 +2,28 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    background-color: #FEFEFE;
+    background-color: #fefefe;
     color: #334155;
+}
+
+/* Montserrat */
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Anonymous Pro */
+.anonymous {
+    font-family: "AnonymousPro", monospace;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
 }
