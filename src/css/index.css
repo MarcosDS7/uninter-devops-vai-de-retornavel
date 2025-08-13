@@ -46,7 +46,24 @@ body {
     color: #334155;
 }
 
-.gradient-primary {
+/* Backgrounds */
+.bg-black-primary {
+    background-color: #070b12;
+}
+
+.bg-white-primary {
+    background-color: #fefefe;
+}
+
+.bg-red-primary {
+    background-color: #d60000;
+}
+
+.bg-white-secondary {
+    background-color: #f8f8f8;
+}
+
+.bg-gradient-primary {
     background: linear-gradient(
         90deg,
         #070b12 0%,
