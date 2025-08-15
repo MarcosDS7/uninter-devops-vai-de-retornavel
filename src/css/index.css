@@ -80,3 +80,45 @@ body {
     margin: 0 auto;
     max-width: 960px;
 }
+/* ----- Footer ----- */
+.site-footer {
+  background: #0b0f14; 
+  color: #c8d0d9;      
+}
+
+.footer-container {
+  max-width: 960px; 
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+/* borda gradiente */
+.footer-gradient-border {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #070b12 0%,
+    #ffc368 15%,
+    #8257e5 45%,
+    #d60000 70%,
+    #070b12 95%
+  );
+}
+
+/* responsivo */
+@media (min-width: 768px) {
+  .footer-text {
+    font-size: 15px;
+  }
+}
