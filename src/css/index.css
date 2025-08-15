@@ -80,3 +80,23 @@ body {
     margin: 0 auto;
     max-width: 960px;
 }
+/* ----- Footer ----- */
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.footer-gradient-border {
+  height: 2px;
+  width: 100%;
+}
