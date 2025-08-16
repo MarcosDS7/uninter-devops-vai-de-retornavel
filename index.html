@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/src/css/reset.css" />
-        <link rel="stylesheet" href="/src/css/index.css" />
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <title>Coca-Cola | Vai de retornável!</title>
-        <meta name="description" content="Redesign da página promocional 'Vai de Retornável' da Coca-Cola: landing page otimizada, clara e atrativa, com navegação e contato direto por e-mail.">
-    </head>
-    
-    <body>
-        <!-- pre-header -->
-
-        <!-- header -->
-
-        <!-- banner -->
-
-        <!-- awards -->
-        
-        <!-- how to participate -->
-
-        <!-- winners -->
-
-        <!-- Doubts -->
-
-        <!-- footer -->
-       <footer class="site-footer bg-black-primary" role="contentinfo" aria-label="Rodapé Coca-Cola">
-        <div class="container footer-container">
-            <p class="footer-text anonymous white-primary">
-                © 2025 The Coca-Cola Company. Todos os direitos reservados.
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola | Vai de retornável!</title>
+    <meta name="description" content="Campanha Coca-Cola: Vai de Retornável. Participe e ganhe prêmios!">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <img src="src/assets/images/logo.svg" alt="Logo Coca-Cola" class="logo">
         </div>
-        <div class="footer-gradient-border bg-gradient-primary" aria-hidden="true"></div>
-       </footer>
+    </header>
 
-        <script type="module" src="/src/js/index.js"></script>
-    </body>
+    <!-- Banner Principal -->
+    <section class="banner">
+        <div class="container">
+            <h1>Vai de Retornável!</h1>
+            <p>Economize e ganhe prêmios com garrafas retornáveis</p>
+        </div>
+    </section>
+
+    <!-- Como Participar -->
+    <section class="how-to-participate">
+        <div class="container">
+            <h2>Como Participar</h2>
+            <ol class="steps">
+                <li>Compre garrafas retornáveis</li>
+                <li>Registre seu cupom no site</li>
+                <li>Ganhe pontos e resgate prêmios</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Seção de Dúvidas -->
+    <section class="doubts-section">
+        <div class="container">
+            <h2 class="section-title">Dúvidas?</h2>
+            <p class="section-text">Ficou com dúvida? Entre em contato conosco!</p>
+            <button id="duvidas-btn" class="doubits-button">
+                Enviar um e-mail
+            </button>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 The Coca-Cola Company. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+</body>
 </html>

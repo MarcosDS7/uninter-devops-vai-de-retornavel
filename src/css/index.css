@@ -1,102 +1,112 @@
+/* Reset e Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: #fefefe;
-    color: #334155;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
-/* Montserrat */
-.montserrat {
-    font-family: "Montserrat", sans-serif;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-/* Anonymous Pro */
-.anonymous {
-    font-family: "AnonymousPro", monospace;
+/* Header */
+.header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Font Weights */
-.font-normal {
-    font-weight: 400;
+.logo {
+    height: 60px;
 }
 
-.font-semibold {
-    font-weight: 600;
+/* Banner */
+.banner {
+    background-color: #d60000;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
 }
 
-.font-bold {
-    font-weight: 700;
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
 }
 
-/* Colors */
-.white-primary {
-    color: #fefefe;
+/* Seção Como Participar */
+.how-to-participate {
+    padding: 50px 0;
+    background-color: #fff;
 }
 
-.black-primary {
-    color: #070b12;
-}
-
-.red-primary {
+.how-to-participate h2 {
+    text-align: center;
+    margin-bottom: 30px;
     color: #d60000;
 }
 
-.gray-primary {
-    color: #334155;
+.steps {
+    list-style-position: inside;
+    font-size: 1.1rem;
 }
 
-/* Backgrounds */
-.bg-black-primary {
-    background-color: #070b12;
+.steps li {
+    margin-bottom: 10px;
 }
 
-.bg-white-primary {
-    background-color: #fefefe;
+/* Seção de Dúvidas */
+.doubts-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px 0;
 }
 
-.bg-red-primary {
+.section-title {
+    color: #d60000;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+/* Botão */
+.doubits-button {
+    padding: 12px 25px;
     background-color: #d60000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.bg-white-secondary {
-    background-color: #f8f8f8;
+.doubits-button:hover {
+    background-color: #b50000;
+    transform: translateY(-2px);
 }
 
-.bg-gradient-primary {
-    background: linear-gradient(
-        90deg,
-        #070b12 0%,
-        #ffc368 19%,
-        #8257e5 51%,
-        #d60000 83%,
-        #070b12 100%
-    );
-}
-
-/* Container */
-.container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 960px;
-}
-/* ----- Footer ----- */
-.footer-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.footer-text {
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.footer-gradient-border {
-  height: 2px;
-  width: 100%;
+/* Footer */
+.footer {
+    background-color: #070b12;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
 }
