@@ -1,85 +1,107 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    background-color: #fefefe;
-    color: #334155;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fefefe;
+  color: #334155;
 }
 
 /* Montserrat */
 .montserrat {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Anonymous Pro */
 .anonymous {
-    font-family: "AnonymousPro", monospace;
+  font-family: "AnonymousPro", monospace;
 }
 
 /* Font Weights */
 .font-normal {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .font-semibold {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .font-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 /* Colors */
 .white-primary {
-    color: #fefefe;
+  color: #fefefe;
 }
 
 .black-primary {
-    color: #070b12;
+  color: #070b12;
 }
 
 .red-primary {
-    color: #d60000;
+  color: #d60000;
 }
 
 .gray-primary {
-    color: #334155;
+  color: #334155;
 }
 
 /* Backgrounds */
 .bg-black-primary {
-    background-color: #070b12;
+  background-color: #070b12;
 }
 
 .bg-white-primary {
-    background-color: #fefefe;
+  background-color: #fefefe;
 }
 
 .bg-red-primary {
-    background-color: #d60000;
+  background-color: #d60000;
 }
 
 .bg-white-secondary {
-    background-color: #f8f8f8;
+  background-color: #f8f8f8;
 }
 
 .bg-gradient-primary {
-    background: linear-gradient(
-        90deg,
-        #070b12 0%,
-        #ffc368 19%,
-        #8257e5 51%,
-        #d60000 83%,
-        #070b12 100%
-    );
+  background: linear-gradient(
+    90deg,
+    #070b12 0%,
+    #ffc368 19%,
+    #8257e5 51%,
+    #d60000 83%,
+    #070b12 100%
+  );
 }
 
 /* Container */
 .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 960px;
 }
+
+/* ----- Awards ----- */
+.awards {
+  text-align: center;
+  padding: 60px 20px;
+}
+.awards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.awards-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 100%;
+}
+
+.awards-subtitle {
+  font-size: 14px;
+  line-height: 18px;
+}
+
 /* ----- Footer ----- */
 .footer-container {
   max-width: 960px;
