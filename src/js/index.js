@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Função para enviar e-mail
     const btnDuvidas = document.getElementById('duvidas-btn');
     
     if (btnDuvidas) {
@@ -11,7 +10,4 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = `mailto:${destinatario}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
         });
     }
-
-    // Outras funcionalidades podem ser adicionadas aqui
-    console.log('Página carregada com sucesso!');
 });
