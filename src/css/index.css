@@ -81,6 +81,14 @@ body {
   max-width: 960px;
 }
 
+/* ----- Banner ----- */
+.banner-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 /* ----- Awards ----- */
 .awards {
   text-align: center;
