@@ -81,7 +81,35 @@ body {
     max-width: 960px;
 }
 
-/* Seção de Dúvidas */
+/* ----- Banner ----- */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+/* ----- Awards ----- */
+.awards {
+    text-align: center;
+    padding: 60px 20px;
+}
+.awards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.awards-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 100%;
+}
+
+.awards-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Section Doubts */
 .doubts-section {
     padding: 50px 0;
     text-align: center;
@@ -99,7 +127,7 @@ body {
     margin-bottom: 24px;
 }
 
-/* Botão */
+/* Button */
 .doubits-button {
     padding: 12px 25px;
     background-color: #d60000;
