@@ -81,6 +81,111 @@ body {
     max-width: 960px;
 }
 
+/* ----- Banner ----- */
+.banner-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+/* ----- Awards ----- */
+.awards {
+    text-align: center;
+    padding: 60px 20px;
+}
+.awards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.awards-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 100%;
+}
+
+.awards-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Section Doubts */
+.doubts-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px 0;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section-text {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+/* Button */
+.doubits-button {
+    padding: 12px 25px;
+    background-color: #d60000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.doubits-button:hover {
+    background-color: #b50000;
+    transform: translateY(-2px);
+}
+
+/* ----- Winners ----- */
+.winners{
+  text-align: center;
+  padding: 0px 20px 60px 20px;
+}
+
+.winners-title{
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.winners-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.winner{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.winners-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+  padding-left: 8px;
+
+}
+
+.winners-illustration{
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 2px;
+}
+
 /* ----- Header ----- */
 header {
     background-color: #fefefe;
@@ -88,13 +193,13 @@ header {
     border-bottom: 1px solid #f8f8f8;
 }
 
-nav {
+/*nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 220px;
     margin-right: 220px;
-}
+}*/
 
 .logo {
     flex: none;

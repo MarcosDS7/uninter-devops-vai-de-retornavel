@@ -1,29 +1,92 @@
-# 🥤 Vai de Retornável – DevOps UNINTER
+# 🥤 Vai de Retornável – DevOps UNINTER  
 
-Repositório do projeto **Vai de Retornável**, desenvolvido para a disciplina de **DevOps** na UNINTER.
+Repositório do projeto **Vai de Retornável**, desenvolvido para a disciplina de **DevOps** na **UNINTER**.  
 
-## 📌 Objetivo
+## 📌 Objetivo  
+O objetivo deste projeto é **aplicar práticas de DevOps** em um caso real, utilizando a campanha **Vai de Retornável** da Coca-Cola como base para desenvolvimento de uma landing page otimizada.  
 
-Desenvolver uma **landing page otimizada** para a campanha *Vai de Retornável* da Coca-Cola, com foco em reorganizar o conteúdo e melhorar a experiência do usuário.
+Além do aspecto técnico (ciclo de desenvolvimento, integração contínua e entrega contínua), o projeto visa:  
+- Reorganizar o conteúdo da campanha.  
+- Melhorar a experiência do usuário.  
+- Documentar todo o processo, desde o **planejamento** até a **conclusão**.  
 
-## 🛠 Tecnologias utilizadas
+![Ciclo DevOps](https://cdn.manageengine.com/sites/meweb/images/br/service-desk/images/devops-lifecycle-diagram.jpg)  
 
-* **HTML**
-* **CSS**
-* **JavaScript**
-* **Docker**
+# 🔄 Ciclo DevOps aplicado  
+Conforme abordado na aula de 14/08/2025, o ciclo DevOps aplicado neste projeto seguiu as seguintes etapas:  
 
-## 📂 Estrutura do repositório
+📝 **Planejamento**  
+- Jira  
+- Google Docs  
+- Figma  
+- Grupo WhatsApp  
 
-* **`main`** → versão estável do projeto
-* Demais regras de branches e versionamento: [BRANCHING\_VERSIONING.md](BRANCHING_VERSIONING.md)
+💻 **Desenvolvimento (Code)**  
+- VS Code  
+  - HTML  
+  - CSS  
+  - JavaScript  
+- Git  
+- GitHub  
 
-## 💻 Executando o Projeto
-Para executar o projeto em desenvolvimento no ambiente docker execute o seguinte comando e acessar no navegador o endereço **`http://localhost:8080/`**:
+🔨 **Build**  
+- Docker  
+
+📦 **Release**  
+- Vercel Git Integration  
+
+🚀 **Deploy**  
+- Vercel  
+
+⚙️ **Implementação**  
+- GitHub  
+- Git  
+
+📊 **Operate**  
+- Vercel Analytics  
+
+👀 **Monitoramento**  
+- Google Analytics  
+
+## 📂 Estrutura do Projeto  
+**main** → versão estável do projeto.  
+**Demais branches** e convenções → ver [BRANCHING_VERSIONING.md](./BRANCHING_VERSIONING.md).  
+
+## 🛠 Tecnologias Utilizadas  
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+- **Docker**  
+
+## 🚀 Executando o Projeto  
+
+Para executar em ambiente de desenvolvimento com **Docker**:  
+
 ```bash
 docker compose up --build
-``` 
+```
+Acesse no navegador:
+👉 http://localhost:8080/
 
-## ℹ️ Observação
+⚠️ **Importante**: após qualquer alteração no código, será necessário matar o container e rodar o build novamente para visualizar as mudanças.
 
-Projeto acadêmico, sem fins comerciais. Todos os direitos da marca pertencem à **Coca-Cola**.
+
+## 📑 Documentação e Recursos
+
+- 📖 **Documentação do projeto**: [Definição escopo do projeto - UNINTER - DEVOPS](https://docs.google.com/document/d/1bsz3B9ZMbT3hPgfC__huFnvFeELWP-bgs90OcolHEB0/edit?usp=sharing)  
+- 🗂 **Jira**: [trabalho-devops | Quadro](https://rodrigopas.atlassian.net/jira/software/projects/UNINTER/boards/34)  
+- 💻 **Repositório GitHub**: [Vai de Retornável – GitHub](https://github.com/rodrigo-pas/uninter-devops-vai-de-retornavel)  
+- 🎨 **Protótipo no Figma**: [UNINTER - DEVOPS](https://www.figma.com/design/0htNAIAzdub8g731qIMbNc/UNINTER---DEVOPS?node-id=1-3&t=sf6kKlUXhJPw6rl6-0)  
+- 💻 **Deploy do Projeto**: [Vai de Retornável – Vercel](https://uninter-devops-vai-de-retornavel.vercel.app/)  
+## 👥 Equipe
+
+- @rodrigo-pas
+- @MarcosDS7
+- @odanieldamasio
+- @nescossio
+- @geizii
+- @Gabidissi
+- @iguleal
+- @MaryanaFraga
+- @DanielSilva-dss
+- @mazarando
