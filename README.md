@@ -12,23 +12,41 @@ Além do aspecto técnico (ciclo de desenvolvimento, integração contínua e en
 
 ![Ciclo DevOps](https://cdn.manageengine.com/sites/meweb/images/br/service-desk/images/devops-lifecycle-diagram.jpg)  
 
-## 🔄 Ciclo DevOps aplicado
+# 🔄 Ciclo DevOps aplicado  
+Conforme abordado na aula de 14/08/2025, o ciclo DevOps aplicado neste projeto seguiu as seguintes etapas:  
 
-Conforme abordado na aula de 14/08/2025, o ciclo DevOps aplicado neste projeto seguiu as seguintes etapas:
+📝 **Planejamento**  
+- Jira  
+- Google Docs  
+- Figma  
+- Grupo WhatsApp  
 
-**Planejamento** – definição do escopo, divisão de tarefas e criação de épicos no Jira.
+💻 **Desenvolvimento (Code)**  
+- VS Code  
+  - HTML  
+  - CSS  
+  - JavaScript  
+- Git  
+- GitHub  
 
-**Desenvolvimento** – implementação da landing page utilizando HTML, CSS e JS.
+🔨 **Build**  
+- Docker  
 
-**Integração Contínua (CI)** – versionamento no GitHub e padronização de branches.
+📦 **Release**  
+- Vercel Git Integration  
 
-**Entrega Contínua (CD)** – uso de Docker para simular ambiente padronizado.
+🚀 **Deploy**  
+- Vercel  
 
-**Deploy** – execução local via Docker Compose.
+⚙️ **Implementação**  
+- GitHub  
+- Git  
 
-**Monitoramento** – acompanhamento do fluxo no Jira e feedbacks em grupo.
+📊 **Operate**  
+- Vercel Analytics  
 
-**Otimização** – ajustes e melhorias conforme testes.
+👀 **Monitoramento**  
+- Google Analytics  
 
 ## 📂 Estrutura do Projeto  
 **main** → versão estável do projeto.  
@@ -59,10 +77,16 @@ Acesse no navegador:
 - 🗂 **Jira**: [trabalho-devops | Quadro](https://rodrigopas.atlassian.net/jira/software/projects/UNINTER/boards/34)  
 - 💻 **Repositório GitHub**: [Vai de Retornável – GitHub](https://github.com/rodrigo-pas/uninter-devops-vai-de-retornavel)  
 - 🎨 **Protótipo no Figma**: [UNINTER - DEVOPS](https://www.figma.com/design/0htNAIAzdub8g731qIMbNc/UNINTER---DEVOPS?node-id=1-3&t=sf6kKlUXhJPw6rl6-0)  
-
+- 💻 **Deploy do Projeto**: [Vai de Retornável – Vercel](https://uninter-devops-vai-de-retornavel.vercel.app/)  
 ## 👥 Equipe
 
 - @rodrigo-pas
 - @MarcosDS7
 - @odanieldamasio
 - @nescossio
+- @geizii
+- @Gabidissi
+- @iguleal
+- @MaryanaFraga
+- @DanielSilva-dss
+- @mazarando
