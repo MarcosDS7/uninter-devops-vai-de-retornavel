@@ -306,3 +306,57 @@ header {
     width: 100%;
 }
 
+/* ----- How to Participate ----- */
+.how-to-participate {
+    text-align: center;
+    padding: 20px 20px 60px;
+}
+
+.how-to-participate-title {
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.how-to-participate-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.how-to-participate-container-box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 255px;
+    justify-content: start;
+    align-items: center;
+}
+
+.how-to-participate-container-box-title {
+    font-size: 14px;
+}
+
+.how-to-participate-container-box-text {
+    font-size: 14px;
+}
+
+.how-to-participate-button {
+    padding: 12px 25px;
+    background-color: #d60000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: max-content;
+    margin-top: 12px;
+}
+
+.how-to-participate-button:hover {
+    background-color: #b50000;
+    transform: translateY(-2px);
+}
