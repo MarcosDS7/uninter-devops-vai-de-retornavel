@@ -88,10 +88,16 @@ body {
   text-align: center;
   padding: 14px 60px;
   gap: 10px;
+  width: 100%;
 }
 
 .preheader-text{
   font-size: 14px;
+}
+
+.preheader-gradient-border{
+  width: 100%;
+  height: 2px;
 }
 
 /* ----- Banner ----- */
