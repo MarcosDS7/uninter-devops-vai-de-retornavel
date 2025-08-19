@@ -122,11 +122,13 @@ docker compose down
 
 ## 📊 Analytics
 
-...
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-analytics.png)  
+
 
 ## 🖼️ Imagens do Projeto
 
-...
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-page.png)  
+
 
 ##
 
