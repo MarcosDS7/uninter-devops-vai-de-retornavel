@@ -1,84 +1,84 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  background-color: #fefefe;
-  color: #334155;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #fefefe;
+    color: #334155;
 }
 
 /* Montserrat */
 .montserrat {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Anonymous Pro */
 .anonymous {
-  font-family: "AnonymousPro", monospace;
+    font-family: "AnonymousPro", monospace;
 }
 
 /* Font Weights */
 .font-normal {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .font-semibold {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 .font-bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 /* Colors */
 .white-primary {
-  color: #fefefe;
+    color: #fefefe;
 }
 
 .black-primary {
-  color: #070b12;
+    color: #070b12;
 }
 
 .red-primary {
-  color: #d60000;
+    color: #d60000;
 }
 
 .gray-primary {
-  color: #334155;
+    color: #334155;
 }
 
 /* Backgrounds */
 .bg-black-primary {
-  background-color: #070b12;
+    background-color: #070b12;
 }
 
 .bg-white-primary {
-  background-color: #fefefe;
+    background-color: #fefefe;
 }
 
 .bg-red-primary {
-  background-color: #d60000;
+    background-color: #d60000;
 }
 
 .bg-white-secondary {
-  background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(
-    90deg,
-    #070b12 0%,
-    #ffc368 19%,
-    #8257e5 51%,
-    #d60000 83%,
-    #070b12 100%
-  );
+    background: linear-gradient(
+        90deg,
+        #070b12 0%,
+        #ffc368 19%,
+        #8257e5 51%,
+        #d60000 83%,
+        #070b12 100%
+    );
 }
 
 /* Container */
 .container {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 /* ---- PreHeader ---- */
@@ -102,90 +102,207 @@ body {
 
 /* ----- Banner ----- */
 .banner-container {
-  display: flex;
-  justify-content: center;
-  padding: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
 }
 
 /* ----- Awards ----- */
 .awards {
-  text-align: center;
-  padding: 60px 20px;
+    text-align: center;
+    padding: 60px 20px;
 }
 .awards-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .awards-title {
-  font-size: 18px;
-  margin-bottom: 10px;
-  line-height: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 100%;
 }
 
 .awards-subtitle {
-  font-size: 14px;
-  line-height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Section Doubts */
+.doubts-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 30px 0;
+}
+
+.section-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section-text {
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+/* Button */
+.doubits-button {
+    padding: 12px 25px;
+    background-color: #d60000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.doubits-button:hover {
+    background-color: #b50000;
+    transform: translateY(-2px);
 }
 
 /* ----- Winners ----- */
 .winners{
-  text-align: center;
-  padding: 0px 20px 60px 20px;
+    text-align: center;
+    padding: 0px 20px 60px 20px;
 }
 
 .winners-title{
-  font-size: 18px;
-  margin-bottom: 32px;
+    font-size: 18px;
+    margin-bottom: 32px;
 }
 
 .winners-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
 }
 
 .winner{
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .winners-text{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 14px;
-  padding-right: 8px;
-  padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+    padding-left: 8px;
 
 }
 
 .winners-illustration{
-  border-width: 1px;
-  border-color: #FFFFFF;
-  border-radius: 2px;
+    border-width: 1px;
+    border-color: #FFFFFF;
+    border-radius: 2px;
 }
+
+/* ----- Header ----- */
+header {
+    background-color: #fefefe;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: none;
+}
+
+.logo img.image {
+    height: auto;
+    width: 181px;
+    object-fit: contain;
+    display: block;
+}
+
+.menu {
+    display: flex;
+    gap: 16px;
+    margin-left: 30px;
+    white-space: nowrap;
+}
+
+nav a {
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #070b12;
+}
+
+nav a:hover {
+    color: #d60000;
+}
+
+@media (max-width: 768px){
+.menu {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29px;
+}
+
+.logo {
+    flex: none;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 181px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+}
+
 
 /* ----- Footer ----- */
 .footer-container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .footer-text {
-  font-size: 14px;
-  line-height: 1.4;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
 .footer-gradient-border {
-  height: 2px;
-  width: 100%;
+    height: 2px;
+    width: 100%;
 }
+
