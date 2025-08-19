@@ -109,6 +109,47 @@ body {
   line-height: 18px;
 }
 
+/* ----- Winners ----- */
+.winners{
+  text-align: center;
+  padding: 0px 20px 60px 20px;
+}
+
+.winners-title{
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.winners-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.winner{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.winners-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+  padding-left: 8px;
+
+}
+
+.winners-illustration{
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-radius: 2px;
+}
+
 /* ----- Footer ----- */
 .footer-container {
   max-width: 960px;
