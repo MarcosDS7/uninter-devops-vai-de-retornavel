@@ -61,6 +61,10 @@ Conforme abordado na aula de *14/08/2025*, o ciclo DevOps aplicado neste projeto
 
 ![Google Analytics](https://img.shields.io/badge/Google%20Analytics-E37400?logo=googleanalytics&logoColor=white)
 
+🧪 **TESTES**  
+
+![Google Lighthouse](https://img.shields.io/badge/Lighthouse-FF6F00?logo=lighthouse&logoColor=white)  
+
 ## 📂 Estrutura do Projeto
 
 **main** → versão estável do projeto.  
@@ -123,6 +127,10 @@ docker compose down
 ## 📊 Analytics
 
 ![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-analytics.png)  
+
+## 🔍 LightHouse
+
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-lighthouse.png)  
 
 
 ## 🖼️ Imagens do Projeto
