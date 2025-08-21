@@ -128,6 +128,10 @@ docker compose down
 
 ![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-analytics.png)  
 
+## 🔍 LightHouse
+
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-lighthouse.png)  
+
 
 ## 🖼️ Imagens do Projeto
 
