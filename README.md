@@ -113,20 +113,25 @@ docker compose down
 
 ## 👥 Equipe
 
-- <sub>@rodrigo-pas</sub>
-- <sub>@MarcosDS7</sub>
-- <sub>@odanieldamasio</sub>
-- <sub>@nescossio</sub>
-- <sub>@geizii</sub>
-- <sub>@Gabidissi</sub>
-- <sub>@iguleal</sub>
-- <sub>@MaryanaFraga</sub>
-- <sub>@DanielSilva-dss</sub>
-- <sub>@mazarando</sub>
+- <sub>@rodrigo-pas - 4844626</sub>
+- <sub>@MarcosDS7 - 4688406</sub>
+- <sub>@odanieldamasio - 3794071</sub>
+- <sub>@nescossio - 4888825</sub>
+- <sub>@geizii - 4663072</sub>
+- <sub>@Gabidissi - 4877350</sub>
+- <sub>@iguleal - 4886881</sub>
+- <sub>@MaryanaFraga - 4946154</sub>
+- <sub>@DanielSilva-dss - 4664439</sub>
+- <sub>@mazarando - 4878978</sub>
 
 ## 📊 Analytics
 
-![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-analytics.png)  
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-google-analytics.png)  
+
+
+## 👨‍🏭 Operação
+
+![Landing page](https://uninter-devops-vai-de-retornavel.vercel.app/src/assets/images/img-vercel-analytics.png)  
 
 ## 🔍 LightHouse
 
